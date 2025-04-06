@@ -1,6 +1,6 @@
 import React from 'react'
 import { ChevronRight,CodeXml } from "lucide-react";
-import './about.css'
+import './About.css'
 
 
 
