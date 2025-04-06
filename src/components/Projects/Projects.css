@@ -25,7 +25,6 @@
 }
 .project-list-container {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -70,6 +69,19 @@
 }
 @media screen and (max-width: 600px) {
     .project-container {
-        width: 80%;
+        width: 100%;
+    }
+    .project-title {
+        font-size: 22px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .project-button {
+        width: 60px;
+        font-size: 10px;
+    }
+    .project-image {
+        height: 25vh;
     }
 }

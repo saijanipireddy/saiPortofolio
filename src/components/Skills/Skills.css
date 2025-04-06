@@ -1,5 +1,5 @@
 .skills {
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding-bottom: 10vh;
     padding-top: 10vh;
@@ -13,7 +13,6 @@
 .skills-outer-card-container {
     background-color: #112240;
     width: 40%;
-    padding: 10px;
     border-radius: 10px;
     margin: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;

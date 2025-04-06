@@ -117,6 +117,9 @@
         width: 200px;
         border-radius: 50%;
     }
+    .main-heading {
+        font-size: 35px;
+    }
     .content-container {
         order: 2;
     }
@@ -127,6 +130,23 @@
         font-size: 20px;
     }
     .home-button {
-        width: 170px;
+        width: 120px;
+        font-size: 10px;
+    }
+    .hello-button {
+        width: 100px;
+        font-size: 15px;
+    }
+    .span-home {
+        font-size:24px;
+    }
+    .home-role {
+        font-size: 27px;
+    }
+    .main-heading {
+        font-size: 30px;
+    }
+    .home-specialization {
+        font-size: 15px;
     }
 }
