@@ -1,0 +1,103 @@
+.form {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+.contact-heading {
+    text-align: center;
+}
+.map-container {
+    width: 60%;
+}
+
+.map-image {
+   height: 68vh;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.map-image:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 10px 10px 15px rgba(178, 176, 176, 0.8);
+}
+.contacts-container {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.footer {
+    text-align: center;
+    padding-top: 10vh;
+}
+.foot-icon {
+    color: tomato;
+}
+.form-container {
+    background-color: #112240;
+   border-radius: 10px;
+    padding: 60px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.form-container:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 10px 10px 15px rgba(178, 176, 176, 0.8);
+}
+.dark .form-container {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* elevation */
+}
+.label {
+    font-size: 20px;
+    color: #8892b0;
+    font-weight: 500;
+}
+.input-label {
+    height: 40px;
+    width: 20vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+    background-color: transparent;
+    border: 1px solid lightblue;
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.input-label:hover {
+   border: 1px solid #64ffda;
+}
+.dark .input-label {
+    color: black;
+}
+.button {
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: transparent;
+    background-color: #8892b0;
+    color: white;
+    border: 1px solid #64ffda;
+}
+@media screen and (max-width: 700px) {
+    .contacts-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-container {
+        order: 1;
+    }
+    .map-container {
+        order: 2;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .input-label {
+        width: 100%;
+    }
+}
+
+
+

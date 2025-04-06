@@ -1,0 +1,121 @@
+.about {
+    width: 90%;
+    margin: auto;
+   
+}
+.about-heading {
+    text-align: center;
+}
+.outer-card-container {
+    background-color: #112240;
+    padding: 20px;
+    border-radius: 20px;
+}
+.dark .outer-card-container {
+    background-color:  white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 40px;
+}
+.dark .dev-icon {
+    color: tomato;
+}
+.dark h2 {
+    color: purple;
+}
+
+.inner-card-container {
+    background-color: #0a192f;
+    margin: 20px;
+    border-radius: 20px;
+}
+.dark .inner-card-container {
+    background-color: white;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+.dark h3 {
+    color: black;
+    font-weight: 500;
+}
+.dark .arrow-icon {
+    color: tomato;
+}
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    transition: transform 0.3s ease;
+  position: relative; 
+}
+.card-content:hover {
+    transform: translateX(15px);
+}
+.arrow-icon {
+    padding-top: 20px;
+    color: #64ffda;
+    font-size: 20px;
+}
+h3 {
+    font-size: 18px;
+    line-height: 2;
+    color: #8892b0;
+    padding-left: 10px;
+    font-family: 'Roboto';
+}
+.card-container {
+    background-color: #112240;
+    margin: 20px;
+    border-radius: 20px;
+    height: 300px;
+    width: 40%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease   
+}
+.card-container:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 10px 10px 15px rgba(178, 176, 176, 0.8);
+}
+.about-inner-card-container {
+    background-color: #0a192f;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dark .about-inner-card-container {
+    background-color: white;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+.about-card-content {
+    text-align: center;
+    padding: 13px;
+    margin: 20px; 
+}
+.dark .card-container {
+    background-color: white;
+}
+.dark .card-container:hover {
+    box-shadow: 10px 10px 15px rgba(178, 176, 176, 0.8);
+}
+p {
+    color: #8892b0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2;
+}
+.about-icon {
+    font-size: 40px;
+    width: 100px;
+}
+.dev-icon {
+    color: #64ffda;
+}
+
+@media screen and (max-width:600px) {
+    .about-inner-card-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-container {
+        width: 90%;
+    }
+}
